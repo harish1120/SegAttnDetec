@@ -1,0 +1,35 @@
+# Ignore large model files
+*.pth
+*.h5
+*.pt
+*.bin
+*.onnx
+*.joblib
+*.weights
+
+# Ignore datasets/compressed files
+*.zip
+*.tar.gz
+*.rar
+*.npz
+*.pickle
+*.pkl
+*.csv
+
+# Ignore temporary/IDE files
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+venv/
+env/
+*.env
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+Thumbs.db
