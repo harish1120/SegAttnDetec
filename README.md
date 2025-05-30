@@ -25,6 +25,14 @@ This is the official implementation of the paper:
 
 *Note: Improvement % compared to the baseline, # of Tr. params = number of trainable parameters.*
 
+### Class-wise performance comparison (mAP %)
+
+| Object class | Easy (FR-CNN) | Easy (SegAttnDetec) | Moderate (FR-CNN) | Moderate (SegAttnDetec) | Hard (FR-CNN) | Hard (SegAttnDetec) |
+|--------------|---------------|---------------------|-------------------|-------------------------|---------------|---------------------|
+| Car          | 84.81         | 97.22               | 86.18             | 89.70                   | 78.03         | 88.90               |
+| Pedestrian   | 76.52         | 79.96               | 59.98             | 73.92                   | 51.84         | 66.62               |
+| Cyclist      | 74.72         | 78.59               | 56.83             | 70.50                   | 49.60         | 68.86               |
+
 **Environment** 
 ---
 ```bash
