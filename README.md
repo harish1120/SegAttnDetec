@@ -7,7 +7,7 @@ This is the official implementation of the paper:
 ---
 ![Model Arch](modelarch.svg)
 
-**Training Stratergy**
+**Training Strategy**
 ---
 ![Training](threestagetraining.png)
 
